@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+Disallow: /Dashboard/
+Disallow: /auth/
+Disallow: /admin/
+
+Sitemap: https://kcquiltretreat.com/sitemap.xml
+
+
+
