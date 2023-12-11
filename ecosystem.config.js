@@ -3,8 +3,8 @@
 module.exports = {
 	apps: [
 		{
-			name: 'honeybadgerits',
-			cwd: '/home/jp/hbitsAPI/hbitsnextjsfrontend',
+			name: 'kcquiltretreat',
+			cwd: '/home/jp/KC_Quilt_Retreat/KC_Quilt_Retreat',
 			script: 'npm',
 			args: 'start',
 			env: {
