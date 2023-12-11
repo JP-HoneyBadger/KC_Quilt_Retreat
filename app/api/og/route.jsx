@@ -36,7 +36,7 @@ export async function GET(request) {
 		).then((res) => res.arrayBuffer());
 
 		const imageData = await fetch(
-			new URL('../../../assets/OG2.png', import.meta.url)
+			new URL('../../../assets/Logos/Horizontal.jpg', import.meta.url)
 		).then((res) => res.arrayBuffer());
 
 		return new ImageResponse(

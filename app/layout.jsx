@@ -22,14 +22,14 @@ export const metadata = {
 	openGraph: {
 		title: 'KC Quilt Retreat',
 		description: "Kansas City's newest premier Quilting, Crafting, and Scrapbooking retreat center with overnight accommodations for 8",
-		url: 'https://kcquiltretreat.com/',
+		url: 'https://kcquiltretreat.honeybadgerits.com/',
 		site_name: "HoneyBager IT Solutions - Kansas City's newest premier Quilting, Crafting, and Scrapbooking retreat center with overnight accommodations for 8",
 		locale: 'en_US',
 		type: 'website',
 		images: [
 			{
-				secure_url: 'https://kcquiltretreat.com/api/og',
-				url: 'https://kcquiltretreat.com/api/og',
+				secure_url: 'https://kcquiltretreat.honeybadgerits.com/api/og',
+				url: 'https://kcquiltretreat.honeybadgerits.com/api/og',
 				width: 1200,
 				height: 630,
 				alt: "KC Quilt Retreat - Kansas City's newest premier Quilting, Crafting, and Scrapbooking retreat center with overnight accommodations for 8",
@@ -39,20 +39,20 @@ export const metadata = {
 	twitter: {
 		title: 'KC Quilt Retreat',
 		description: "Kansas City's newest premier Quilting, Crafting, and Scrapbooking retreat center with overnight accommodations for 8",
-		url: 'https://kcquiltretreat.com/',
+		url: 'https://kcquiltretreat.honeybadgerits.com/',
 		site_name: "HoneyBager IT Solutions - Kansas City's newest premier Quilting, Crafting, and Scrapbooking retreat center with overnight accommodations for 8",
 		images: [
 			{
-				secure_url: 'https://kcquiltretreat.com/api/twitter',
-				url: 'https://kcquiltretreat.com/api/twitter',
+				secure_url: 'https://kcquiltretreat.honeybadgerits.com/api/twitter',
+				url: 'https://kcquiltretreat.honeybadgerits.com/api/twitter',
 				width: 1200,
 				height: 630,
 				alt: "KC Quilt Retreat - Kansas City's newest premier Quilting, Crafting, and Scrapbooking retreat center with overnight accommodations for 8",
 			},
 		],
 	},
-	sitemap: 'https://kcquiltretreat.com/sitemap.xml',
-	robots: 'https://kcquiltretreat.com/robots.txt',
+	sitemap: 'https://kcquiltretreat.honeybadgerits.com/sitemap.xml',
+	robots: 'https://kcquiltretreat.honeybadgerits.com/robots.txt',
 	charset: 'utf-8',
 };
 
