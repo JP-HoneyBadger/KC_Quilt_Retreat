@@ -31,7 +31,7 @@ const Footer = () => {
 							href='https://honeybadgerits.com/'
 							target='_blank'
 							rel='noopener'
-							className='underline underline-offset-4 text-gray-400'>
+							className='underline underline-offset-4 text-gray-400 hover:text-primary'>
 							HoneyBadger IT Solutions
 						</Link>
 					</div>

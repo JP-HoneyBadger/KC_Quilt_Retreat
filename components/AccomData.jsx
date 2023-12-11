@@ -20,12 +20,12 @@ export const accomData = [
 	{
 		title: 'Workstations',
 		items: [
-			'heavy duty 30"x60" table',
+			'Heavy duty 30"x60" table',
 			'18"x26" side table',
-			'rolling office chair with flip-up arm rests',
-			'task lamp & pop-up trash can',
-			'shared power towers with plenty of outlets & USB chargers',
-			'additional adjustable lighting.',
+			'Rolling office chair with flip-up arm rests',
+			'Task lamp & pop-up trash can',
+			'Shared power towers with plenty of outlets & USB chargers',
+			'Additional adjustable lighting.',
 			'Additional dining room table with multiple leaves can seat 2 additional quilters',
 		],
 	},

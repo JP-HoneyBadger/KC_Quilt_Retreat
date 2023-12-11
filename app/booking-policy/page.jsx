@@ -1,6 +1,7 @@
 /** @format */
 
 import Hero from '@/components/Hero';
+import LocalAreaVenues from '@/components/LocalAreaVenues';
 import PageBreak from '@/components/PageBreak';
 import Pricing from '@/components/Pricing';
 import React from 'react';
@@ -16,6 +17,7 @@ export default function page() {
 					</div>
 				</div>
 				<Pricing />
+				<LocalAreaVenues/>
 			</section>
 		</>
 	);

@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import AccomList from './AccomList';
 
 export default function Accommodations() {

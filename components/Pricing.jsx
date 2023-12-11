@@ -38,8 +38,8 @@ export default function Pricing() {
 			<div className='mt-10'>
 				<PageBreakSpinner />
 				<Accommodations />
-				<div className='flex flex-col justify-center items-center py-2 md:py-4'>
-				<Button className='mt-4'>
+				<div className='flex flex-col justify-center items-center py-2'>
+				<Button className='mb-4'>
                     <Link href='/calendar-page'>Calendar</Link>
                 </Button></div>
 			</div>
