@@ -88,7 +88,7 @@ export default function Page() {
 							animate='show'
 							exit='hidden'
 							className='text-2xl leading-tight lg:text-4xl lg:leading-snug mb-4 font-semibold text-center'>
-							Let&apos;s <span className=''>connect.</span>
+							Let&apos;s <span className='text-primary'>connect.</span>
 						</motion.h2>
 						{/* form */}
 						<motion.form
@@ -112,7 +112,7 @@ export default function Page() {
 											required
 											type='text'
 											placeholder=''
-											className='input-text capitalize block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
+											className='input-text capitalize block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-gray-300 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
 										/>
 									</div>
 								</div>
@@ -128,7 +128,7 @@ export default function Page() {
 											required
 											type='text'
 											placeholder=''
-											className='input-text capitalize block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
+											className='input-text capitalize block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-gray-300 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
 										/>
 									</div>
 								</div>
@@ -146,7 +146,7 @@ export default function Page() {
 											required
 											type='email'
 											placeholder=''
-											className='input-email lowercase block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
+											className='input-email lowercase block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-gray-300 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
 										/>
 									</div>
 								</div>
@@ -162,7 +162,7 @@ export default function Page() {
 											id='phone'
 											type='tel'
 											placeholder=''
-											className='input-phone block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
+											className='input-phone block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-gray-300 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
 										/>
 									</div>
 								</div>
@@ -179,7 +179,7 @@ export default function Page() {
 										required
 										type='text'
 										placeholder=''
-										className='input-text  block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
+										className='input-text  block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-gray-300 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
 									/>
 								</div>
 							</div>
@@ -195,7 +195,7 @@ export default function Page() {
 										required
 										type='text'
 										placeholder=''
-										className='textarea input-text block w-full h-[180px] p-3.5 rounded-lg resize-none border-0 px-3.5 py-2 text-gray-900 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
+										className='textarea input-text block w-full h-[180px] p-3.5 rounded-lg resize-none border-0 px-3.5 py-2 text-gray-900 dark:text-gray-300 shadow-lg ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6'
 									/>
 								</div>
 							</div>
