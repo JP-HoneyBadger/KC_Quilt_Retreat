@@ -12,9 +12,9 @@ export default function LocalAreaVenues() {
 				</h1>
 			</div>
 			<div className='flex flex-col justify-center items-center text-xl mb-6 lg:mb-8 px-4 text-center'>
-				<h3 className='font-medium mb-2 flex flex-row'>
+				<h3 className='font-medium mb-2 flex flex-row gap-x-2'>
 					<ScissorsSquareDashedBottom />
-					Local supplies and Resturants
+					<h2>Local supplies and Resturants</h2>
 					<Utensils />
 				</h3>
 				<LocalAreaList />
