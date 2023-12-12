@@ -44,7 +44,7 @@ export default function Hero() {
 						pauseOnMouseEnter: true,
 					}}
 					effect='fade'
-					
+					speed={1000}
 					navigation={true}
 					// pagination={{ clickable: true }}
 					modules={[Navigation, Autoplay, EffectFade]}
