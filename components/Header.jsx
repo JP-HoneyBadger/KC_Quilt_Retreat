@@ -11,6 +11,7 @@ import ThemeToggler from './ThemeToggler';
 import MobileNav from './MobileNav';
 import Nav from './Nav';
 import Socials from './Socials';
+import LogoButton from './common/LogoButton';
 
 export default function Header() {
 	const [header, setHeader] = useState(false);
@@ -37,7 +38,7 @@ export default function Header() {
 			}`}>
 			<div className='container mx-auto '>
 				<div className='flex justify-between items-center'>
-					<Logo />
+					<LogoButton />
 					<div className='flex items-center gap-x-2 md:gap-x-4'>
 						{/* nav */}
 						<Nav

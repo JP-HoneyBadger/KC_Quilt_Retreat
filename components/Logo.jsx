@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import LogoSVG from '@/assets/Logos/Horizontal.svg'
 import { LogoPNG } from "@/assets"
 
 const Logo = () => {
