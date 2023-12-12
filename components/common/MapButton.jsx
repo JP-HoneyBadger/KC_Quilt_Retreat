@@ -2,7 +2,7 @@
 
 import Iframe from 'react-iframe';
 import { Map } from 'lucide-react';
-import { Button } from "@/components/ui/button"
+import { Button } from '@/components/ui/button';
 
 import {
 	Popover,
@@ -14,10 +14,15 @@ export default function MapButton() {
 	return (
 		<Popover>
 			<PopoverTrigger asChild>
-				<Button variant='link' >
+				<Button variant='link'>
 					{' '}
-					<Map 	size={30} className='text-primary dark:text-gray-400  hover:text-white dark:hover:text-primary transition-all'/>
-          <h5 className='text-sm md:text-lg ml-4 text-gray-400 hover:text-primary'>6407 NE 156th St, Smithville, MO</h5>
+					<Map
+						size={30}
+						className='text-primary dark:text-gray-400  hover:text-white dark:hover:text-primary transition-all'
+					/>
+					<h5 className='text-sm md:text-xl ml-4 text-gray-400 hover:text-primary font-normal'>
+						6407 NE 156th St, Smithville, MO
+					</h5>
 				</Button>
 			</PopoverTrigger>
 			<PopoverContent className='w-[340px] md:w-[640px]'>
@@ -40,7 +45,7 @@ export default function MapButton() {
 							allowfullscreen=''
 							loading='lazy'
 							referrerpolicy='no-referrer-when-downgrade'
-              className='flex flex-1 w-300'></Iframe>
+							className='flex flex-1 w-300'></Iframe>
 					</div>
 				</div>
 			</PopoverContent>

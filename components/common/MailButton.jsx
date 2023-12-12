@@ -9,7 +9,7 @@ export default function MailButton() {
 				size={30}
 				className='text-primary dark:text-gray-400 transition-all'
 			/>
-			<h5 className='text-sm md:text-lg ml-4 text-gray-400 '>
+			<h5 className='text-sm md:text-xl ml-4 text-gray-400 '>
 				info@kcquiltretreat.com
 			</h5>
 		</div>
