@@ -7,7 +7,7 @@ export default function PhoneButton() {
 		<div className='flex flex-row justify-center items-center ps-6'>
 			<Phone
 				size={30}
-				className='text-primary dark:text-gray-400 transition-all'
+				className='text-primary dark:text-gray-400 transition-all leading-tight'
 			/>
 			<h5 className='text-sm md:text-lg ml-4 text-gray-400 '>
 				(913) 449-2411
