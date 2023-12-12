@@ -8,11 +8,13 @@ import { images } from '@/lib/images';
 
 // core version + navigation, pagination modules:
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 // import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
+// import 'swiper/css/effect-cube';
 
 export default function Hero() {
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -36,11 +38,17 @@ export default function Hero() {
 					spaceBetween={30}
 					centeredSlides={true}
 					// set time interval
-					autoplay={{ delay: 4500, disableOnInteraction: false }}
+					autoplay={{
+						delay: 4000,
+						disableOnInteraction: false,
+						pauseOnMouseEnter: true,
+					}}
+					effect='fade'
+					
 					navigation={true}
 					// pagination={{ clickable: true }}
-					modules={[Navigation, Autoplay]}
-					className='h-96 w-full rounded-lg'>
+					modules={[Navigation, Autoplay, EffectFade]}
+					className='h-96 w-full rounded-lg '>
 					{images.map((image, index) => (
 						<SwiperSlide key={index}>
 							<div className='flex h-full w-full items-center justify-center cursor-pointer'>
@@ -49,7 +57,9 @@ export default function Hero() {
 									alt={image.alt}
 									className='block h-full w-full object-cover'
 									onClick={() => handleImageClick(image.src)}
+									loading='lazy'
 								/>
+								<div className='swiper-lazy-preloader'></div>
 							</div>
 						</SwiperSlide>
 					))}

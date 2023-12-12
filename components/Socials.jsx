@@ -4,7 +4,6 @@
 
 import Link from 'next/link';
 
-
 import {
 	RiYoutubeFill,
 	RiLinkedinFill,
@@ -29,7 +28,7 @@ const icons = [
 	// },
 	{
 		path: 'https://www.facebook.com/kcquiltretreat',
-		name: < RiFacebookCircleFill/>,
+		name: <RiFacebookCircleFill />,
 	},
 	// {
 	// 	path: '/',
@@ -37,18 +36,18 @@ const icons = [
 	// },
 ];
 
-const Socials = ({containerStyles, iconsStyles}) => {
-	return (<div className={`${containerStyles}`}>
-        {icons.map((icon, index)=>{
-            return <Link href={icon.path} key={index}>
-            <div className={`${iconsStyles}`}>{icon.name}</div>
-            </Link>
-        })}
-
-
-
-
-    </div>);
+const Socials = ({ containerStyles, iconsStyles }) => {
+	return (
+		<div className={`${containerStyles}`}>
+			{icons.map((icon, index) => {
+				return (
+					<Link href={icon.path} key={index}>
+						<div className={`${iconsStyles}`}>{icon.name}</div>
+					</Link>
+				);
+			})}
+		</div>
+	);
 };
 
 export default Socials;

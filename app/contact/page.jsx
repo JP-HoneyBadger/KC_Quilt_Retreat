@@ -64,7 +64,7 @@ export default function Page() {
 		}
 	}
 	return (
-		<div className='flex flex-col sm:flex-row pt-10 justify-evenly items-center'>
+		<div className='flex flex-col sm:flex-row pt-10 justify-evenly items-center pb-6'>
 			<Container>
 				<div className=''>
 					<div className='bg-cover  max-w-xl mx-3 bg-center rounded-lg flex flex-1 justify-center items-center pb-2 lg:mx-auto'>
