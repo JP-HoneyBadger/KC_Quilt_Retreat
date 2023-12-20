@@ -34,14 +34,15 @@ export default function Pricing() {
 						</h3>
 					</div>
 				</div>
+				<div className='flex flex-col justify-center items-center py-2 mt-8'>
+				<Button className=''>
+                    <Link href='/calendar-page'>Calendar</Link>
+                </Button></div>
 			</div>
 			<div className='mt-10'>
 				<PageBreakSpinner />
 				<Accommodations />
-				<div className='flex flex-col justify-center items-center py-2'>
-				<Button className='mb-4'>
-                    <Link href='/calendar-page'>Calendar</Link>
-                </Button></div>
+				
 			</div>
 		</>
 	);
