@@ -17,7 +17,7 @@ export default function page() {
 				<Faq/>
 
 			</div>
-			<div className='h-[60vh]'></div>
+			{/* <div className='h-[10vh]'></div> */}
 		</>
 	);
 }
