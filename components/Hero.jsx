@@ -1,6 +1,6 @@
 /** @format */
 
-import { HeroImg } from '@/assets';
+import { HeroImg } from '@/public';
 import Image from 'next/image';
 import Link from 'next/link';
 import PageBreak from './PageBreak';

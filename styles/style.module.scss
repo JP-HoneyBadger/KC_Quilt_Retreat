@@ -1,0 +1,16 @@
+.main {
+    height: 200vh;
+    width: 100vw;
+
+    .cube {
+        position: sticky;
+        top: 0;
+        height: 125vh;
+    }
+}
+
+@media screen {
+    .cube {
+        height: 50vh;
+    }
+}

@@ -30,10 +30,10 @@ const icons = [
 		path: 'https://www.facebook.com/kcquiltretreat',
 		name: <RiFacebookCircleFill />,
 	},
-	// {
-	// 	path: '/',
-	// 	name: <RiInstagramFill />,
-	// },
+	{
+		path: 'https://www.instagram.com/kcquiltretreat',
+		name: <RiInstagramFill />,
+	},
 ];
 
 const Socials = ({ containerStyles, iconsStyles }) => {

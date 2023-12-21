@@ -1,19 +1,19 @@
-/** @format */
+/** @/publicformat */
 
-import bathroom from '@/assets/images/Bathrooms/IMG_5725.jpeg';
-import bedroom1 from '@/assets/images/Bedrooms/20230821_181824.jpeg';
-import bedroom2 from '@/assets/images/Bedrooms/IMG_5724.jpeg';
-import design_wall from '@/assets/images/Design Walls/20230902_162420_cropped.jpg';
-import kitchen1 from '@/assets/images/Kitchen/20230901_104329.jpeg';
-import kitchen2 from '@/assets/images/Kitchen/20230901_104401.jpeg';
-import project1 from '@/assets/images/Projects/IMG_5760.jpeg';
-import project2 from '@/assets/images/Projects/IMG_5763.jpeg';
-import quilt_room1 from '@/assets/images/Quilt Rooms/20230901_104257.jpeg';
-import quilt_room2 from '@/assets/images/Quilt Rooms/20230901_104318.jpeg';
-import quilt_room3 from '@/assets/images/Quilt Rooms/20230901_104428.jpeg';
-import quilt_room4 from '@/assets/images/Quilt Rooms/20230901_104441.jpeg';
-import quilt_room5 from '@/assets/images/Quilt Rooms/20230901_104446.jpeg';
-import quilt_room6 from '@/assets/images/Quilt Rooms/20230901_104456.jpeg';
+import bathroom from '@/public/images/Bathrooms/IMG_5725.jpeg';
+import bedroom1 from '@/public/images/Bedrooms/20230821_181824.jpeg';
+import bedroom2 from '@/public/images/Bedrooms/IMG_5724.jpeg';
+import design_wall from '@/public/images/Design Walls/20230902_162420_cropped.jpg';
+import kitchen1 from '@/public/images/Kitchen/20230901_104329.jpeg';
+import kitchen2 from '@/public/images/Kitchen/20230901_104401.jpeg';
+import project1 from '@/public/images/Projects/IMG_5760.jpeg';
+import project2 from '@/public/images/Projects/IMG_5763.jpeg';
+import quilt_room1 from '@/public/images/Quilt Rooms/20230901_104257.jpeg';
+import quilt_room2 from '@/public/images/Quilt Rooms/20230901_104318.jpeg';
+import quilt_room3 from '@/public/images/Quilt Rooms/20230901_104428.jpeg';
+import quilt_room4 from '@/public/images/Quilt Rooms/20230901_104441.jpeg';
+import quilt_room5 from '@/public/images/Quilt Rooms/20230901_104446.jpeg';
+import quilt_room6 from '@/public/images/Quilt Rooms/20230901_104456.jpeg';
 
 export const images = [
 	{ src: quilt_room3, alt: 'quilt_room3' },

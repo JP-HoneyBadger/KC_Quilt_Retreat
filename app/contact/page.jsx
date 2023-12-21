@@ -2,7 +2,7 @@
 
 'use client';
 
-import { Quilt } from '@/assets';
+import { Quilt } from '@/public';
 import { fadeIn } from '@/variants';
 import { motion } from 'framer-motion';
 import { toast } from 'react-toastify';
